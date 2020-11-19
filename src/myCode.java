@@ -7,12 +7,12 @@ import java.util.ArrayList;
 // Better to use hashmaps
 
 class MyCode {
+
     public static void main(String[] args) {
-        MyCode codeInstance = new MyCode();
-        ArrayList<Integer> test = codeInstance.capitals("CodEWaRs");
-        for (Integer number : test) {
-            System.out.println(number);
-        }
+        solveFrequency codeInstance = new solveFrequency();
+        int[] a = {2, 3, 5, 3, 7, 9, 5, 10, 9, 2, 3, 3, 7};
+        for (int b : codeInstance.solve(a))
+            System.out.print(b + " ");
     }
 
     // isUpperCase - 2.03s
