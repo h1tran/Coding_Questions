@@ -10,7 +10,7 @@ class MyCode {
 
     public static void main(String[] args) {
         solveFrequency codeInstance = new solveFrequency();
-        int[] a = {2, 3, 5, 3, 7, 9, 5, 10, 9, 2, 3, 3, 7};
+        int[] a = {2, 3, 5, 3, 7, 5, 100, 200, 3, 3, 7, 9};
         for (int b : codeInstance.solve(a))
             System.out.print(b + " ");
     }
